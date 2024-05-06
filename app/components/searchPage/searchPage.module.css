@@ -1,0 +1,16 @@
+.view {
+    overflow: overlay;
+    height: 25em;
+}
+
+.searchHeader {
+    border: 1px solid #e5e7eb;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.search {
+    width: 50%;
+}

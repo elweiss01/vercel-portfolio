@@ -1,0 +1,194 @@
+li.nav-item {
+    padding: 2em 0;
+}
+
+
+.active {
+    background-color: #4290f5;
+  }
+  
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+
+  .ReactTags__tags {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 5px 10px;
+  }
+  
+  .ReactTags__selected {
+    display: flex;
+  }
+  
+  .ReactTags__clearAll {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    background: #f88d8d;
+    color: #fff;
+    border: none;
+  }
+  
+  .ReactTags__tagInput {
+    border-radius: 2px;
+    display: inline-block;
+  }
+  
+  .ReactTags__tagInput input.ReactTags__tagInputField, .ReactTags__tagInput input.ReactTags__tagInputField:focus {
+    height: 31px;
+    margin: 0;
+    font-size: 12px;
+    min-width: 150px;
+    padding: 0px 10px;
+  }
+  
+  .ReactTags__editInput {
+    border-radius: 1px;
+  }
+  
+  .ReactTags__editTagInput {
+    display: inline-flex;
+  }
+  
+  .ReactTags__selected span.ReactTags__tag {
+    border: 1px solid #ddd;
+    background: #0d6efd;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 2px;
+  }
+  
+  .ReactTags__selected a.ReactTags__remove {
+    color: #aaa;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .ReactTags__suggestions {
+    position: absolute;
+  }
+  
+  .ReactTags__suggestions ul {
+    list-style-type: none;
+    box-shadow: 0.05em 0.01em 0.5em rgba(0, 0, 0, 0.2);
+    background: white;
+    width: 200px;
+  }
+  
+  .ReactTags__suggestions li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 10px;
+    margin: 0;
+  }
+  
+  .ReactTags__suggestions li mark {
+    text-decoration: underline;
+    background: none;
+    font-weight: 600;
+  }
+  
+  .ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+    background: #b7cfe0;
+    cursor: pointer;
+  }
+  
+  .ReactTags__remove {
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: white;
+    margin-left: 5px;
+  }
+  
+  input {
+    background-color: #f9f9f9;
+    border: none;
+    outline: none;
+  }
+  
+  input:before {
+    border: none;
+  }
+
+  .collapse.show {
+    visibility: visible;
+  }
+
+  .delete-panel {
+    position: relative;
+    right: 10em;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color:#fff;
+}
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23A81912'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23A81912'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+
+
+.rbt-token.rbt-token-removeable {
+  float: left;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    padding: 0px 4px;
+    margin: 2px;
+}
+
+
+.rbt-input-multi.form-control.rbt-input {
+  height: auto;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.rbt {
+  width: auto;
+  height: auto;
+}
+.rbt-token-label {
+  float: left;
+}
+
+button.close.btn-close.rbt-close.rbt-token-remove-button {
+  color: #ffffff;
+  padding: 0;
+}
+
+.rbt-input-wrapper {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #0d6efd !important;
+}
+
+.btn-secondary {
+  background-color: #6c757d !important;
+}
+
+.btn-danger {
+  background-color: #dc3545 !important;
+}
+
+h1 {
+  font-size:2.5rem !important;
+}
